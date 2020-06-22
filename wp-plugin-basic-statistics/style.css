@@ -1,0 +1,74 @@
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 7px;
+}
+
+table#statistics_table tbody td {
+  padding-left: 10px;
+}
+
+table#statistics_table tbody tr td:first-of-type {
+  width: 75%;
+}
+
+table#statistics_table tbody tr td:last-of-type {
+  width: 25%;
+}
+
+thead td {
+  border: 2px solid #353b48;
+}
+
+tbody td {
+  border: 2px solid #718093;
+}
+
+table#statistics_table thead td {
+  text-align: center;
+}
+
+table#statistics_table tbody tr:nth-of-type(odd) td {
+background-color: #d1d8e0;
+}
+
+table#statistics_table tbody tr:nth-of-type(even) td {
+  background-color: #f5f6fa;
+}
+
+table#statistics_table tbody tr td:first-of-type {
+  font-weight: bold;
+}
+
+table#statistics_most_commented {
+  text-align: center;
+}
+
+table#statistics_most_commented thead td {
+  color: white;
+}
+
+table thead tr:first-of-type td {
+  background-color: #353b48;
+  font-weight: bold;
+  color: white;
+}
+
+table#statistics_most_commented thead tr:nth-of-type(2) td {
+  background-color: #718093;
+}
+
+tr:nth-of-type(even) td {
+  background-color: #fff;
+}
+
+tr:nth-of-type(odd) td {
+  background-color: #f4f4f4;
+}
+
+td {
+  font-size: 15px;
+  padding: 10px 5px;
+}
